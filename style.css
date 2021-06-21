@@ -1,0 +1,12 @@
+.navbar{
+    overflow: hidden;
+    background-color: red;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    float: right;
+    padding: 14px 16px;
+}

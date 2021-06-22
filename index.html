@@ -5,19 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar">
-        
-            <a href="#">User</a></li>
-            <a href="#">App</a></li>
-            <a href="#">Images</a></li>
-            <a href="#">Gmail</a</li>
-        
+
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <button class="material-icons app-drawer" href="">apps</button>
+        <a href="https://github.com/VaishFlamez" target="_blank"><img class="user-avatar"
+                src="https://avatars.githubusercontent.com/u/65652230?s=60&v=4" alt=""></a>
+
     </nav>
+    <main>
     <div class="icon">
         <a href="#">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
@@ -26,14 +29,20 @@
 
     </div>
 
-    <div class="formdiv">
-        <form action="submit">
+    <div class="searchdiv">
+        
+        <img src="images/search-image.png" alt="search-image" class="search-img">
             <input type="text" id="formtext">
-            <input type="button" value="Google Search"> 
-            <input type="button" value="I'm Feeling Lucky"> 
+        <img src="images/mic-image.png" alt="mic-image" class="mic-image">
 
-        </form>
     </div>
+    <div class="search-buttons">
+            <input type="button" value="Google Search" class="button-search">
+            <input type="button" value="I'm Feeling Lucky" class="button-search">
+    </div>
+       
+    
+</main>
 
 
 </body>

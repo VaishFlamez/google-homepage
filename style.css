@@ -54,7 +54,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 20px;
+    margin-top: 15rem;
 }
 
 .icon{
@@ -127,4 +127,45 @@ main{
     border-color: blue;
   }
 
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid #ddd;
+    background: #f2f2f2;
+    color: #70757a;
+    font-size: 1.4rem;
+    font-family: Arial, sans-serif; 
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+  }
+  
+  .right-section {
+    margin-right: 3rem;
+  }
+  
+  .footer-link {
+    display: block;
+    padding: 1rem 0 1rem 3rem;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+    color:#3c4043;
+  }
+  
+  .footer-link:active {
+    color: #ea4335;
+  }  
+.footer a{
+    text-decoration: none;
+    color: inherit;
+}
 
